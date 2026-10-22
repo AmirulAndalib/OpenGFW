@@ -1,22 +1,22 @@
 module github.com/apernet/OpenGFW
 
-go 1.21
+go 1.24
 
 require (
 	github.com/bwmarrin/snowflake v0.3.0
 	github.com/coreos/go-iptables v0.7.0
-	github.com/expr-lang/expr v1.16.3
+	github.com/expr-lang/expr v1.17.7
 	github.com/florianl/go-nfqueue v1.3.2-0.20231218173729-f2bdeb033acf
 	github.com/google/gopacket v1.1.20-0.20220810144506-32ee38206866
 	github.com/hashicorp/golang-lru/v2 v2.0.7
 	github.com/mdlayher/netlink v1.6.0
-	github.com/quic-go/quic-go v0.41.0
+	github.com/quic-go/quic-go v0.59.1
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/viper v1.18.2
 	go.uber.org/zap v1.26.0
-	golang.org/x/crypto v0.19.0
-	golang.org/x/sys v0.17.0
-	google.golang.org/protobuf v1.31.0
+	golang.org/x/crypto v0.41.0
+	golang.org/x/sys v0.35.0
+	google.golang.org/protobuf v1.33.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -39,8 +39,8 @@ require (
 	github.com/subosito/gotenv v1.6.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/exp v0.0.0-20230905200255-921286631fa9 // indirect
-	golang.org/x/net v0.19.0 // indirect
-	golang.org/x/sync v0.5.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/net v0.43.0 // indirect
+	golang.org/x/sync v0.16.0 // indirect
+	golang.org/x/text v0.28.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 )
